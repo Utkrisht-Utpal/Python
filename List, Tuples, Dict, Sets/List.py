@@ -1,5 +1,6 @@
-# fruits = ['apple', 'banana', 'guava', 'mango', 'lichi', '''grapes''']
-# print(f"There are {len(fruits)} fruits in total.")
+fruits = ['apple', 'banana', 'guava', 'mango', 'lichi', '''grapes''']
+print(f"There are {len(fruits)} fruits in total.")
+print(fruits[0])
 
 # for fruit in fruits:
 #     print(fruit.title())
@@ -11,11 +12,11 @@
 # for fruit in fruits:
 #     print(fruit.title())
 
-movies = []
+# movies = []
 
-for i in range(3):
-    movie = input(f"Movie No. {i + 1}: ")
-    movies.append(movie)
+# for i in range(3):
+#     movie = input(f"Movie No. {i + 1}: ")
+#     movies.append(movie)
 
-for movie in movies:
-    print(movie)
+# for movie in movies:
+#     print(movie)
